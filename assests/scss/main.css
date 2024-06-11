@@ -616,7 +616,7 @@ body {
   background-color: #fff !important;
 }
 .price_end .accordion-button {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
   border: 1px solid rgba(55, 53, 53, 0.238);
 }
@@ -624,7 +624,7 @@ body {
   box-shadow: none !important;
 }
 .price_end .collapsed {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 .price_end .accordion-body {
@@ -998,5 +998,11 @@ body {
   }
   .main-box a {
     font-size: 1.6rem;
+  }
+  .price_end .collapsed {
+    font-size: 1.2rem;
+  }
+  .price_end .accordion-button {
+    font-size: 1.2rem;
   }
 }/*# sourceMappingURL=main.css.map */

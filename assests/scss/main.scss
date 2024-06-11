@@ -834,7 +834,7 @@ $add_cart_color: #4e84c6;
   }
 
   .accordion-button {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
     border: 1px solid rgba(55, 53, 53, 0.238);
 
@@ -845,7 +845,7 @@ $add_cart_color: #4e84c6;
   
 
   .collapsed {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
   }
 
@@ -1279,6 +1279,14 @@ $add_cart_color: #4e84c6;
     a{
       font-size: 1.6rem;
     }
+  }
+  .price_end{
+     .collapsed{
+      font-size: 1.2rem;
+     }
+     .accordion-button{
+      font-size: 1.2rem;
+     }
   }
 }
 // 🚀 Innovative solutions start
