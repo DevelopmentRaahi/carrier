@@ -820,7 +820,8 @@ $add_cart_color: #4e84c6;
   h4 {
     text-align: center;
     font-size: 2.5rem;
-    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: 600;
     color: $heading_color;
   }
 
@@ -833,21 +834,46 @@ $add_cart_color: #4e84c6;
   }
 
   .accordion-button {
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 1px solid rgba(55, 53, 53, 0.238);
 
     &:focus {
       box-shadow: none !important;
     }
   }
+  
 
   .collapsed {
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 500;
   }
 
   .accordion-body {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+    .post_box-1{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;      
+      a{
+        text-decoration: none;
+        color: #003666;
+        
+        &:hover{
+          color: #ff9021;
+        }
+      }
+      .heading{
+        font-weight: 500;
+      }
+    }
+  }
+  
+  .accordion-item{
+    margin-top: 1.4rem;
+  }
+  .accordion-header :active{
+    font-weight: 500;
   }
 }
 
@@ -1135,7 +1161,7 @@ $add_cart_color: #4e84c6;
 // 🚀 Innovative solutions start
 .team_section {
   &-bg {
-    background-color: rgb(9, 64, 100);
+    background-color:rgb(28 36 41);
 
 
     &-1 {
@@ -1177,7 +1203,7 @@ $add_cart_color: #4e84c6;
   margin: 3rem 0;
 }
 .main-box {
-  // border: 1px solid #fff;
+  border: 1px solid #ffffff4b;
   padding: 1rem 0.7rem;
   background-color: #0b233875;
   position: relative;

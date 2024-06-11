@@ -605,7 +605,8 @@ body {
 .price_end h4 {
   text-align: center;
   font-size: 2.5rem;
-  font-weight: 700;
+  text-transform: uppercase;
+  font-weight: 600;
   color: rgb(47, 78, 126);
 }
 .price_end > * {
@@ -615,18 +616,40 @@ body {
   background-color: #fff !important;
 }
 .price_end .accordion-button {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: 1px solid rgba(55, 53, 53, 0.238);
 }
 .price_end .accordion-button:focus {
   box-shadow: none !important;
 }
 .price_end .collapsed {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 .price_end .accordion-body {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
+}
+.price_end .accordion-body .post_box-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price_end .accordion-body .post_box-1 a {
+  text-decoration: none;
+  color: #003666;
+}
+.price_end .accordion-body .post_box-1 a:hover {
+  color: #ff9021;
+}
+.price_end .accordion-body .post_box-1 .heading {
+  font-weight: 500;
+}
+.price_end .accordion-item {
+  margin-top: 1.4rem;
+}
+.price_end .accordion-header :active {
+  font-weight: 500;
 }
 
 #btn-back-to-top {
@@ -872,7 +895,7 @@ body {
 }
 
 .team_section-bg {
-  background-color: rgb(9, 64, 100);
+  background-color: rgb(28, 36, 41);
 }
 .team_section-bg-1 {
   padding: 3rem 0rem;
@@ -910,6 +933,7 @@ body {
 }
 
 .main-box {
+  border: 1px solid rgba(255, 255, 255, 0.2941176471);
   padding: 1rem 0.7rem;
   background-color: rgba(11, 35, 56, 0.4588235294);
   position: relative;
