@@ -548,24 +548,28 @@ body {
   }
 }
 .offer_section_bg {
-  background-color: rgba(252, 252, 252, 0.47);
+  background-color: rgba(244, 254, 255, 0.47);
   margin: 0rem 0rem;
 }
-.offer_section_bg .main_box {
+.offer_section_bg .mainbox {
   padding: 3rem 0rem;
   text-align: center;
 }
-.offer_section_bg .main_box h2 {
+.offer_section_bg .mainbox h2 {
   color: rgb(47, 78, 126);
   font-weight: 600;
   font-size: 2.3rem;
 }
-.offer_section_bg .main_box p {
+.offer_section_bg .mainbox p {
+  margin: 0 auto;
+  width: 70%;
+  font-size: 1.4rem;
   text-align: center;
   color: rgb(64, 58, 85);
 }
-.offer_section_bg .main_box > * {
+.offer_section_bg .mainbox > * {
   margin-top: 2.5rem;
+  padding: 0.7rem 0rem;
 }
 .offer_section_bg .main_button a {
   text-decoration: none;
@@ -1005,4 +1009,87 @@ body {
   .price_end .accordion-button {
     font-size: 1.2rem;
   }
+}
+.jobsection_gap {
+  margin: 1rem 0;
+}
+.jobsection_gap .job-heading h2 {
+  color: rgb(188, 73, 20);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.jobsection_box {
+  background-color: #f8faff;
+  border-radius: 1rem;
+  padding: 30px 20px 5px 20px;
+  height: 100%;
+  transition: all 0.5s;
+}
+.jobsection_box:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1764705882);
+  transition: all 0.5s;
+  transform: translateX(-1rem);
+}
+.jobsection_box .m-heading {
+  margin: 0.8rem 0rem;
+}
+.jobsection_box .m-heading a {
+  text-decoration: none;
+  color: #003666;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.jobsection_box .m-heading a:hover {
+  color: rgb(255, 145, 0);
+}
+.jobsection_box .m-icons {
+  display: flex;
+  gap: 1rem;
+}
+.jobsection_box .m-icons i {
+  padding-right: 5px;
+}
+.jobsection_box .m-para {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+}
+.jobsection_box .m-requires span {
+  background-color: rgba(181, 181, 181, 0.331);
+  padding: 0.4rem 1rem;
+  border-radius: 3px;
+}
+.jobsection_box .m-requires span a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #000;
+}
+.jobsection_box .m-requires span a:hover {
+  color: rgb(15, 72, 108);
+}
+.jobsection_box .m-requires span:not(:first-child) {
+  margin-left: 6px;
+}
+.jobsection_box .s-apply {
+  margin: 3rem 0;
+  position: relative;
+}
+.jobsection_box .s-apply a {
+  position: absolute;
+  right: 1px;
+  bottom: 2px;
+  text-decoration: none;
+  border: 1px solid rgba(128, 128, 128, 0.367);
+  padding: 0.4rem 2rem;
+  font-size: 1.2rem;
+  color: #000;
+  border-radius: 3px;
+}
+.jobsection_box .s-apply a:hover {
+  color: #fefefe;
+  background-color: rgb(255, 145, 0);
+}
+.jobsection_box:hover .s-apply a {
+  color: #fefefe;
+  background-color: #334b7b;
 }/*# sourceMappingURL=main.css.map */

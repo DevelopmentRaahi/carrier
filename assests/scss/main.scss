@@ -744,7 +744,7 @@ $des_heading_color: #5b72a0;
   }
 }
 
-$offer_bg_color: rgb(252 252 252 / 47%);
+$offer_bg_color: rgba(244, 254, 255, 0.47);
 $btn_pric_color: #099f7c;
 $add_cart_color: #4e84c6;
 
@@ -752,9 +752,10 @@ $add_cart_color: #4e84c6;
   background-color: $offer_bg_color;
   margin: 0rem 0rem;
 
-  .main_box {
+  .mainbox {
     padding: 3rem 0rem;
     text-align: center;
+    
 
     h2 {
       color: $heading_color;
@@ -763,12 +764,16 @@ $add_cart_color: #4e84c6;
     }
 
     p {
+      margin: 0 auto;
+      width:70% ;
+      font-size: 1.4rem;
       text-align: center;
       color: $heading_para_color;
     }
 
     &>* {
       margin-top: 2.5rem;
+      padding: 0.7rem 0rem;
     }
   }
 
@@ -1290,3 +1295,102 @@ $add_cart_color: #4e84c6;
   }
 }
 // 🚀 Innovative solutions start
+
+  // job sections start 
+  .jobsection_gap{
+    margin: 1rem 0;
+    .job-heading{
+      h2{
+        color: rgb(188, 73, 20);
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+  .jobsection_box{
+    background-color: #f8faff;
+    border-radius: 1rem;
+    padding: 30px 20px 5px 20px;    
+    height: 100%;
+    transition: all 0.5s;
+    &:hover{
+      box-shadow: 0 0 2px 1px #0000002d;
+      transition: all 0.5s;
+      transform: translateX(-1rem);
+    }
+    .m-heading{
+       margin: 0.8rem 0rem;
+      a{
+        text-decoration: none;
+        color: #003666;
+        font-size: 1.8rem;
+        font-weight: 500;
+       
+        &:hover{
+          color: rgb(255, 145, 0);
+        }
+
+      }
+    }
+    .m-icons{
+      display: flex;
+      gap: 1rem;
+      i{
+        padding-right: 5px;
+      }
+    }
+    .m-para{
+      margin: 1rem 0;
+      font-size: 1.3rem;
+    }
+    .m-requires{
+      span{
+        background-color: rgba(181, 181, 181, 0.331);
+        padding: 0.4rem 1rem;
+        border-radius: 3px;
+        a{
+          font-size: 1.2rem;
+          text-decoration: none;
+          color: #000;
+          &:hover{
+            color: rgb(15, 72, 108);
+          }
+        }
+
+        &:not(:first-child){
+          margin-left:6px;
+          
+        }
+      }
+    }
+   .s-apply{
+      margin: 3rem 0;
+      position: relative;
+      
+      a{
+        position: absolute;
+        right: 1px;
+        bottom: 2px;
+        text-decoration: none;
+        //  background-color: gray;
+         border: 1px solid rgba(128, 128, 128, 0.367);
+         padding: 0.4rem 2rem;
+         font-size: 1.2rem;
+         color: #000;
+         border-radius: 3px;
+
+         &:hover {
+          color: #fefefe;
+           background-color: rgb(255, 145, 0);
+         }
+
+      }
+    }
+    &:hover .s-apply{
+         a{
+          color: #fefefe;
+           background-color:#334b7b;
+        }
+      }
+    
+  }
