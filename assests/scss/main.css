@@ -1096,4 +1096,35 @@ body {
 .jobsection_box:hover .s-apply a {
   color: #fefefe;
   background-color: #334b7b;
+}
+
+.customer_review {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 1.7rem 1.4rem;
+  margin: 2rem 0rem;
+}
+.customer_review .qoute {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 2rem;
+}
+.customer_review .c-para {
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.customer_review .c-down {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+.customer_review .c-down .c-img img {
+  width: 4.2rem;
+  height: 4.2rem;
+}
+.customer_review .c-down .c-descrp .c-headng {
+  font-size: 1.6rem;
+  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */

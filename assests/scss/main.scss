@@ -1398,3 +1398,40 @@ $add_cart_color: #4e84c6;
       }
     
   }
+  .customer_review{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 1.7rem 1.4rem;
+    margin: 2rem 0rem;
+    
+    .qoute{
+      width: 3rem;
+      height: 3rem;
+      margin-bottom: 2rem;
+    }
+    .c-para{
+      font-size: 1.2rem;
+      line-height: 2.4rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+    }
+    .c-down{
+      display: flex;
+      gap: 1.2rem;
+      align-items: center;
+      .c-img{
+       
+        img{
+          width: 4.2rem;
+          height: 4.2rem;
+
+        }
+      }
+      .c-descrp{
+        .c-headng{
+          font-size: 1.6rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
