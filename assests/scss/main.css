@@ -1071,7 +1071,8 @@ body {
   margin-left: 6px;
 }
 .jobsection_box .s-apply {
-  margin: 3rem 0;
+  margin-top: 3rem;
+  padding: 1rem 0;
   position: relative;
 }
 .jobsection_box .s-apply a {
