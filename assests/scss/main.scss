@@ -118,6 +118,7 @@ $one_two_three_color: rgb(255 89 18);
 
     .first_section {
       position: relative;
+      padding: 2rem;
 
       h2 {
         span {
@@ -841,7 +842,8 @@ $add_cart_color: #4e84c6;
   .accordion-button {
     font-size: 1.4rem;
     font-weight: 500;
-    border: 1px solid rgba(55, 53, 53, 0.238);
+    border: 1px solid rgba(55, 53, 53, 0.141);
+    padding: 2rem;
 
     &:focus {
       box-shadow: none !important;
@@ -852,6 +854,7 @@ $add_cart_color: #4e84c6;
   .collapsed {
     font-size: 1.4rem;
     font-weight: 500;
+    padding: 2rem;
   }
 
   .accordion-body {
@@ -1240,14 +1243,14 @@ $add_cart_color: #4e84c6;
 
   h3 {
     color: #fff;
-    font-weight: 600;
-    font-size: 2rem;
+    font-weight: 500;
+    font-size: 1.6rem;
   }
 
   p {
     color: #b4b2b2;
-    font-weight: 400;
-    font-size: 1.4rem;
+    font-weight: 300;
+    font-size: 1.2rem;
   }
 
   a {
