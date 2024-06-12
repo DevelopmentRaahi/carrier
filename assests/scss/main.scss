@@ -23,10 +23,9 @@ h6 {
   color: #333;
 }
 
-* {
-  font-family: "Barlow Semi Condensed", sans-serif;
+* {  
   scroll-behavior: smooth;
-}
+  }
 
 
 html {
@@ -35,7 +34,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @mixin boxshadow {
@@ -1435,3 +1434,106 @@ $add_cart_color: #4e84c6;
       }
     }
   }
+.dev-row-gap{
+  margin:2rem 0;
+  .dev-bg-img{
+    img{
+      width: 100%;
+      border: 1px solid transparent;
+      border-radius: 1rem;
+    }
+  }
+  
+  // developer page
+  .hero_section_dev{
+    width: 100%;
+
+
+  .dev-heading{ 
+    margin-top: 2rem;  
+    padding:0rem 0 ;    
+    color: #37383acf;   
+    font-size: 2rem ; 
+    font-weight: 600;
+    
+    }
+    .m-icons{
+     display: flex;
+     gap: 1rem;
+     flex-wrap: wrap;
+     .i-first{
+      color: #585858d6;
+      font-size: 13px;
+     }
+    }
+   }
+   
+
+}
+.b-first_row{
+  p{
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+  }
+  .dev-heading{
+    color: #111c33cf;   
+    font-size: 1.7rem ; 
+    font-weight: 600;
+  }
+  .dev-list{
+    padding-left: 2rem;
+    li{
+      list-style: circle;
+      line-height: 2.3rem;
+    }
+  }
+  .details{
+    margin: 1rem 0;
+    a{
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: 600;
+      &:hover{
+        color: #cd5a09;
+      }
+    }
+  }
+}
+.wb_last-para{
+  margin-top: 1rem ;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2rem;
+}
+.wb_box {
+    border: 1px solid rgba(128, 128, 128, 0.332);  
+    border-radius: 5px ;
+    
+    .wb-similar{
+      font-size: 1.6rem;
+       font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      color: #334b7b;
+      padding: 1rem;
+      
+      .wb-similar_ul{
+        li{
+          padding: 0.3rem 0rem;
+          list-style: none;
+          a{
+            text-decoration: none;
+            font-size: 1.2rem;
+            line-height: 1.2rem;
+            transition: all 0.4s;
+            &:hover{
+              color: #000;
+              padding-left: 4px;
+              transition: all 0.4s;
+            }
+          }
+        }
+      }
+    }
+    
+   }
+   
