@@ -25,6 +25,7 @@ h6 {
 
 * {  
   scroll-behavior: smooth;
+  
   }
 
 
@@ -1443,7 +1444,8 @@ $add_cart_color: #4e84c6;
   margin:2rem 0;
   .dev-bg-img{
     img{
-      width: 100%;
+     width: 100vw;
+     height: 100%;
       border: 1px solid transparent;
       border-radius: 1rem;
     }
@@ -1479,6 +1481,7 @@ $add_cart_color: #4e84c6;
   p{
     font-size: 1.2rem;
     line-height: 2.3rem;
+    
   }
   .dev-heading{
     color: #111c33cf;   
