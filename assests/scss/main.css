@@ -21,7 +21,6 @@ h6 {
 }
 
 * {
-  font-family: "Barlow Semi Condensed", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -30,7 +29,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn-design {
@@ -1127,4 +1126,94 @@ body {
 .customer_review .c-down .c-descrp .c-headng {
   font-size: 1.6rem;
   font-weight: 600;
+}
+
+.dev-row-gap {
+  margin: 2rem 0;
+}
+.dev-row-gap .dev-bg-img img {
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+}
+.dev-row-gap .hero_section_dev {
+  width: 100%;
+}
+.dev-row-gap .hero_section_dev .dev-heading {
+  margin-top: 2rem;
+  padding: 0rem 0;
+  color: rgba(55, 56, 58, 0.8117647059);
+  font-size: 2rem;
+  font-weight: 600;
+}
+.dev-row-gap .hero_section_dev .m-icons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.dev-row-gap .hero_section_dev .m-icons .i-first {
+  color: rgba(88, 88, 88, 0.8392156863);
+  font-size: 13px;
+}
+
+.b-first_row p {
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+}
+.b-first_row .dev-heading {
+  color: rgba(17, 28, 51, 0.8117647059);
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.b-first_row .dev-list {
+  padding-left: 2rem;
+}
+.b-first_row .dev-list li {
+  list-style: circle;
+  line-height: 2.3rem;
+}
+.b-first_row .details {
+  margin: 1rem 0;
+}
+.b-first_row .details a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.b-first_row .details a:hover {
+  color: #cd5a09;
+}
+
+.wb_last-para {
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2rem;
+}
+
+.wb_box {
+  border: 1px solid rgba(128, 128, 128, 0.332);
+  border-radius: 5px;
+}
+.wb_box .wb-similar {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #334b7b;
+  padding: 1rem;
+}
+.wb_box .wb-similar .wb-similar_ul li {
+  padding: 0.3rem 0rem;
+  list-style: none;
+}
+.wb_box .wb-similar .wb-similar_ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  transition: all 0.4s;
+}
+.wb_box .wb-similar .wb-similar_ul li a:hover {
+  color: #000;
+  padding-left: 4px;
+  transition: all 0.4s;
 }/*# sourceMappingURL=main.css.map */
