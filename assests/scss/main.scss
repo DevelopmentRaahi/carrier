@@ -48,6 +48,11 @@ $btn_pric_color: #099f7c;
 $add_cart_color: #faa200;
 $heading_top_color: rgb(102 102 102);
 $one_two_three_color: rgb(255 89 18);
+.head_paragraph{
+  .textNav{
+    font-family: "Barlow Semi Condensed", sans-serif;
+  }
+}
 
 .btn-design {
   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.288);
@@ -1536,4 +1541,6 @@ $add_cart_color: #4e84c6;
     }
     
    }
+
+   
    

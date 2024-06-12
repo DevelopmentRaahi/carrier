@@ -32,6 +32,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.head_paragraph .textNav {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
 .btn-design {
   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.288);
 }
