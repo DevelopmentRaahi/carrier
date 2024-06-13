@@ -365,6 +365,9 @@ h1 h2 h3 h4 h5 h6{
   font-family: "Inter", sans-serif;
 }
 
+#pre-main_header{
+ background-color: #ffdd6345 ;
+}
 /* preheader */
 .pre-main{
   display: flex;
@@ -372,6 +375,7 @@ h1 h2 h3 h4 h5 h6{
   justify-content: space-between;
   align-items: center;
   height: 70px;
+ 
 }
 .logo-content {
   display: flex;
