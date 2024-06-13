@@ -1455,15 +1455,36 @@ $add_cart_color: #4e84c6;
   .hero_section_dev{
     width: 100%;
 
-
+   .dev-items_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   } 
   .dev-heading{ 
     margin-top: 2rem;  
     padding:0rem 0 ;    
     color: #37383acf;   
     font-size: 2rem ; 
     font-weight: 600;
-    
+    display: inline-block;
+     
     }
+    .dev-anchor{
+      font-size: 1.2rem;
+      font-weight: 500;
+      a{
+        color: #101010;
+        text-decoration: none;
+        background-color: #fab400;
+        padding: 10px 15px;
+        border-radius: 4px;
+        
+      &:hover{
+        color: #ffffff;
+        background-color: #003666;
+      }
+      }
+    } 
     .m-icons{
      display: flex;
      gap: 1rem;

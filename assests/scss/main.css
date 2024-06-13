@@ -1136,12 +1136,18 @@ body {
   margin: 2rem 0;
 }
 .dev-row-gap .dev-bg-img img {
-  width: 100%;
+  width: 100vw;
+  height: 100%;
   border: 1px solid transparent;
   border-radius: 1rem;
 }
 .dev-row-gap .hero_section_dev {
   width: 100%;
+}
+.dev-row-gap .hero_section_dev .dev-items_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .dev-row-gap .hero_section_dev .dev-heading {
   margin-top: 2rem;
@@ -1149,6 +1155,22 @@ body {
   color: rgba(55, 56, 58, 0.8117647059);
   font-size: 2rem;
   font-weight: 600;
+  display: inline-block;
+}
+.dev-row-gap .hero_section_dev .dev-anchor {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.dev-row-gap .hero_section_dev .dev-anchor a {
+  color: #101010;
+  text-decoration: none;
+  background-color: #fab400;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.dev-row-gap .hero_section_dev .dev-anchor a:hover {
+  color: #ffffff;
+  background-color: #003666;
 }
 .dev-row-gap .hero_section_dev .m-icons {
   display: flex;
