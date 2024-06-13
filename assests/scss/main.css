@@ -1230,14 +1230,18 @@ body {
   color: #334b7b;
   padding: 1rem;
 }
+.wb_box .wb-similar hr {
+  margin: 0;
+}
 .wb_box .wb-similar .wb-similar_ul li {
   padding: 0.3rem 0rem;
   list-style: none;
 }
 .wb_box .wb-similar .wb-similar_ul li a {
   text-decoration: none;
-  font-size: 1.2rem;
-  line-height: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.2;
   transition: all 0.4s;
 }
 .wb_box .wb-similar .wb-similar_ul li a:hover {

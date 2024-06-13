@@ -1549,6 +1549,9 @@ $add_cart_color: #4e84c6;
       font-weight: 500;
       color: #334b7b;
       padding: 1rem;
+      hr{
+        margin: 0;
+      }
       
       .wb-similar_ul{
         li{
@@ -1556,8 +1559,9 @@ $add_cart_color: #4e84c6;
           list-style: none;
           a{
             text-decoration: none;
-            font-size: 1.2rem;
-            line-height: 1.2rem;
+            font-size: 1.1rem;
+            font-weight: 500;
+            line-height: 1.2;
             transition: all 0.4s;
             &:hover{
               color: #000;
