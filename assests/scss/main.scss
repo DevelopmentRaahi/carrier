@@ -1565,6 +1565,30 @@ $add_cart_color: #4e84c6;
     }
     
    }
+body{ 
+  position: relative;
+}
+   .side_hiring-btn{    
+    
+        a{
+          z-index: 200;
+          text-decoration: none;
+          color: #fff;
+        position: fixed;        
+        left: -45px;               
+        transform: translateY(-50%) rotate(90deg); 
+        top: 50%; 
+        padding: 5px 10px;
+        font-size: 16px;
+        background-color: #0f3689f0; 
+        border-radius: 5px;
+        &:hover{
+          color: #000;
+          background-color: #fab400;
+        }
+
+        }
+   }
 
    
    
