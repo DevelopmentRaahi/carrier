@@ -52,13 +52,22 @@ body {
   font-weight: 600;
 }
 
+#navbg {
+  padding: 1.2rem 0;
+}
 #navbg a {
   font-size: 1.2rem;
   margin-left: 0.4rem;
 }
+#navbg a:hover {
+  color: #fff;
+}
 #navbg .dropdown-menu a {
-  font-size: 1rem !important;
+  font-size: 1.1rem !important;
   margin-left: 0rem;
+  line-height: 2;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 .bg-section-home-one:before {
