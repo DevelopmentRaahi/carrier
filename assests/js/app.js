@@ -26,6 +26,15 @@ function backToTop() {
   document.documentElement.scrollTop = 0;
 }
 
+window.addEventListener('scroll', function() {
+  var navbar = document.getElementById('navbg');
+  if (window.scrollY > 50) {
+    // navbar.classList.add('bg-change_now'); 
+    navbar.style.backgroundColor = "#fff"; 
+  }
+});
+
+
 
 
 
