@@ -80,19 +80,26 @@ $one_two_three_color: rgb(255 89 18);
 #navbg {
   padding: 1.2rem 0;
   a {
+   
     font-size: 1.2rem;
-    margin-left: 0.4rem;
+    margin: 0.2rem;
     &:hover{
       color: #fff;
+      border-color: rgb(23, 23, 23);
     }
   }
 
   .dropdown-menu {
     a {
+    color: #000;
     font-size: 1.1rem !important;
     margin-left: 0rem;
     line-height: 2;
-    max-width: fit-content;
+    
+    &:hover{
+      color: inherit;
+      
+    }
     }
   }
 }

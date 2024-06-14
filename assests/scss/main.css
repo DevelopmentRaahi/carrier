@@ -57,17 +57,20 @@ body {
 }
 #navbg a {
   font-size: 1.2rem;
-  margin-left: 0.4rem;
+  margin: 0.2rem;
 }
 #navbg a:hover {
   color: #fff;
+  border-color: rgb(23, 23, 23);
 }
 #navbg .dropdown-menu a {
+  color: #000;
   font-size: 1.1rem !important;
   margin-left: 0rem;
   line-height: 2;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+}
+#navbg .dropdown-menu a:hover {
+  color: inherit;
 }
 
 .bg-section-home-one:before {
