@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -21,9 +22,16 @@ nav {
 .navbar-nav .nav-item:hover{
   background-color: #fab400;
 }
+#navbg{
+  background: #ffffff1a;
+}
+.bg-change_now{
+  background-color: #ffffff;
+}
 #navbg a{
-  margin: initial !important;
-  font-size: 16px;
+  font-family: inherit;
+  margin: initial ;
+  font-size: 17px;
   font-weight: 500;
 }
 
@@ -65,9 +73,9 @@ nav {
         font-size: 0.8rem;
     }
     
-    .navbar-brand {
-        color: rgb(255, 191, 0);
-}
+   
+  
+
 
 .bg-nav {
     border-top: 1px solid rgba(128, 128, 128, 0.172);
