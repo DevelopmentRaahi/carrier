@@ -871,6 +871,7 @@ body {
   justify-content: center;
   opacity: 0.9;
   transition: all 0.5s;
+  position: relative;
   z-index: 300;
 }
 .whatsap_button:hover {
@@ -894,7 +895,8 @@ body {
   animation: blink 1s infinite;
 }
 .whatsap_button .float:hover {
-  filter: grayscale(0);
+  animation-play-state: paused;
+  opacity: 1;
 }
 .whatsap_button .call_icon {
   transition: all 0.5s;

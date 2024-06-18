@@ -1125,12 +1125,15 @@ $add_cart_color: #4e84c6;
   justify-content: center;
   opacity: 0.9;
   transition: all 0.5s;
+  position: relative;
   z-index: 300;
 
   &:hover {
     opacity: 1;
     transition: all 0.5s;
+
   }
+  
 
   .float {
     position: fixed;
@@ -1148,10 +1151,11 @@ $add_cart_color: #4e84c6;
     display: grid;
     // filter: grayscale(100);
     animation: blink 1s infinite;
-
-    &:hover {
-      filter: grayscale(0);
-    }
+    &:hover{
+        animation-play-state: paused;
+        opacity: 1;
+      }
+   
   }
 
   .call_icon {
