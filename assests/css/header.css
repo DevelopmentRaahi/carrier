@@ -399,6 +399,14 @@ h6 {
   }
 }
 
+/* ======== pre header section 1======== */
+ .header_top_para{
+    text-align: center;
+    padding: 1.2rem 1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #31708f;
+  }
 /* ======== pre header section ======== */
 .pre_header_contain{
   display: flex;
