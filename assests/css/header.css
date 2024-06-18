@@ -402,6 +402,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   height: 70px;
+  padding-inline: 0.5rem;
 }
 .pre_header_links i, .last_btns_icons i{
   padding-inline-end: 0.3rem;
