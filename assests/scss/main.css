@@ -1274,6 +1274,9 @@ body {
   position: relative;
 }
 
+.side_hiring-btn {
+  position: relative;
+}
 .side_hiring-btn a {
   z-index: 200;
   text-decoration: none;

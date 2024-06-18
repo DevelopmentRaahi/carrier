@@ -1,5 +1,6 @@
 let mybutton = document.getElementById("btn-back-to-top");
 let socialIcons = document.querySelector(".whatsap_button");
+let hiringBtn = document.querySelector(".side_hiring-btn")
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
@@ -8,14 +9,16 @@ window.onscroll = function () {
 
 function scrollFunction() {
   if (
-    document.body.scrollTop > 20 ||
-    document.documentElement.scrollTop > 20
+    document.body.scrollTop > 10 ||
+    document.documentElement.scrollTop > 10
   ) {
     socialIcons.style.display = "block";
     mybutton.style.display = "block";
+    hiringBtn.style.display = "block";
   } else {
     mybutton.style.display = "none";
     socialIcons.style.display = "none";
+    hiringBtn.style.display = "none";
   }
 }
 // When the user clicks on the button, scroll to the top of the document
