@@ -395,3 +395,40 @@ h6 {
     display: block;
   }
 }
+
+/* ======== pre header section ======== */
+.pre_header_contain{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+.pre_header_links i, .last_btns_icons i{
+  padding-inline-end: 0.3rem;
+  align-items: center;
+}
+
+.header_paragrap .header_paragrap-1{
+  font-size: 1.4rem;
+}
+.header_lastBtns {
+  display: inline-flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+.last_btns_link{
+  column-gap: 1rem;
+}
+.pre_header_links a, .last_btns_icons a{
+  color:#000;
+  font-weight: 400;
+}
+.pre_header_links a:hover, .last_btns_icons a:hover{
+  color:#ff660e;
+  font-weight: 400;
+}
+@media screen and (max-width:820px) {
+  .header_paragrap .header_paragrap-1{
+  display: none;
+}
+}
